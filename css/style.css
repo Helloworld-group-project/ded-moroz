@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanalei+Fill&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Lobster&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	text-decoration: none;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Balsamiq Sans';
+}
+
+.back{
+	display: block;
+	text-align-last: left;
+	margin: 20px 0;
+	color: #000;
+	text-decoration: underline;
+	font-size: 20px;
+}
+
+.container{
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
+header{
+	position: relative;
+	width: 100%;
+	height: 50vh;
+	background: url(../img/sneg.png) bottom repeat-x, url(../img/header.jpg);
+}
+
+header p{
+	position: absolute;
+	top: 50%;
+	width: 1100px;
+	color: white;
+	font-size: 30px;
+	text-shadow: 2px 2px 2px #000;
+	font-weight: 700;
+	text-align: center;
+	transform: translateY(-50%);
+}
+
+.user{
+	height: 70vh;
+	background-color: #f0f0f0;
+}
+.user-content{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding-top: 10px;
+}
+
+.user-content a{
+	margin: 30px;
+	display: inline-block;
+	width: 15%;
+	text-align: center;
+}
+
+.ded-box{
+	width: 100%;
+}
+
+.photo{
+	display: inline-block;
+	width: 100%;
+	height: 160px;
+	border-radius: 100%;
+	background-image: url(../img/ded-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-shadow: 0 0 10px rgba(0,0,0,0.8);
+	transition: all 0.4s;
+}
+
+.photo04{
+	background-image: url(../img/Marat/увлин_увгун.jpg);
+}
+
+.photo05{
+	background-image: url(../img/Vasilyi/china_ny_8.jpg);
+}
+.photo06{
+	background-image: url(../img/Mihail/hoteisho3.jpg);
+}
+.photo02{
+	background-image: url(../img/Ranis/krutoy_santa.png);
+}
+#image_01:hover {
+  opacity:0.5;
+}
+
+#image_01:hover #image_01_hover{
+  opacity:1.0;
+   top:60px;
+  left:-60px;
+}
+
+#image_01:hover #image_01_hover02{
+  top:66px;
+  left:20px;
+  opacity: 1.0;
+}
+p1{
+  position: relative;
+  top:5px;
+  left:5px;
+}
+#image_01_hover{
+  width:20px;
+  height: 50px;
+  background-color:transparent;
+  
+  position: relative;
+  top:20px;
+  left:-100px;
+  margin:auto;
+  opacity: 0.0;
+  transition: all 0.4s;
+  color:#000;
+  font-family: 'Raleway', sans-serif;
+  font-size:18px;
+  font-weight:700;
+  text-align:center;
+}
+#image_01_hover02{
+  width:30x;
+  height: 50px;
+  background-color:transparent;
+  
+  position: relative;
+  top:20px;
+  left:80px;
+  margin:auto;
+  opacity: 0.0;
+  transition: all 0.4s;
+  color:#000;
+  font-family: 'Raleway', sans-serif;
+  font-size:18px;
+  font-weight:200;
+  text-align:center;
+}
+#image_01_hover03{
+  background-color:#fff;
+  width:100%;
+  height:200px;
+  margin:auto;
+  text-align:center;
+  transition: all 0.4s;
+  position: relative;
+  top:-108px;
+  opacity:0.0;
+}
+
+footer{
+	height: 10vh;
+	background:url(../img/header.jpg);
+}
+
+
+
+
+

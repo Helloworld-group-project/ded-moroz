@@ -1,0 +1,25 @@
+.fex{
+    text-align: center;
+}
+    
+body{
+	background-image:url(../img/Vasilyi/wo.jpg);
+	font-family: 'Langar', cursive;
+}
+h1{
+	color: #D84033;
+}
+.fex p{
+font-size: 25px;
+}
+hr{
+	border: 5px solid #D84033;
+	border-radius: 4px;
+
+}
+img{
+   border: 3px solid right;
+}
+h2{
+	color: #000080;
+}
