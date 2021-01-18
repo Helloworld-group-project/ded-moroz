@@ -3,13 +3,12 @@ body{
 	background-repeat: no-repeat;
 	background-size: cover;*/
 }
-.container{
+.container1{
 	width: 1200px;
 	margin: 0 auto;
 	background-color: white;
 	padding: 70px;
-	margin-top: 60px;
-	margin-bottom: 60px;
+	
 	background-color: #f0f0f0;
 }
 
