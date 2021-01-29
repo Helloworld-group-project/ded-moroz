@@ -1,0 +1,78 @@
+@font-face {
+	font-family: 'Yanone Kaffeesatz';
+	src: url('../font/YanoneKaffeesatz-VariableFont_wght.ttf');
+}
+body {
+	font-family: 'Yanone Kaffeesatz';
+	src: url('../font/YanoneKaffeesatz-VariableFont_wght.ttf');
+	background-color: red;
+	color: black;
+	margin: 0;
+}
+.H1 {
+	text-align: center;
+    background-color: black;
+    color: white;
+    padding: 200px 0;
+    background-image: url('../img/Vladimir/NXc4yyTTLF0.jpg');
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h1 {
+	font-size: 40px;
+	text-align: center;
+    color: red;
+}
+h2 {
+	font-size: 40px;
+	text-align: center;
+}                                                       
+.map {
+	text-align: center;
+	font-size: 30px;
+}
+.dos .block{
+	text-decoration: none;
+    color: black;
+    display: inline-block;
+    width: 300px;
+    padding: 1%;
+    font-weight: lighter;
+    border: 2px solid black;
+    border-radius: 25px;
+    margin: 2%;
+}
+.dos .block:hover{
+	background-color: #c70000;
+    color: white;
+}
+.dos {
+	text-align: center;
+    margin-top: 17px;
+}
+.dos img {
+	width: 80%;
+}
+.dos p {
+	font-size: 30px;
+	margin: 5px;
+}
+iframe {
+	width: 100%;
+}
+@media (max-width: 600px) {
+    body{
+        margin: 0;
+    }
+    .dos a {
+    	width: 90%;
+    }
+    .dos {
+    	text-align: center;
+    }
+	.map {
+		width: 95%;
+		margin: auto;
+    }
+}

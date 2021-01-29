@@ -1,0 +1,129 @@
+/*
+Credit: http://www.templatemo.com
+*/
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	color: black;
+	font-family: 'Hachi Maru Pop', cursive;;
+	font-size: 17px;
+	line-height: 1.5em; 
+	background-position: top;
+	background-repeat: repeat-x;
+	background-size: cover;
+	background-image: url(../img/ksenia/jp_body.jpg)
+}
+
+h1, h2, h3, h4, h5, h6 { color: #CD2626; font-weight: normal; }
+h1 { font-size: 34px; margin: 0 0 30px; padding: 5px 0 }
+h2 { font-size: 28px; margin: 0 0 25px; padding: 5px 0; }
+h3 { font-size: 22px; margin: 0 0 20px; padding: 0; }
+h4 { font-size: 18px; margin: 0 0 15px; padding: 0; }
+h5 { font-size: 16px; margin: 0 0 10px; padding: 0;  }
+h6 { font-size: 14px; margin: 0 0 5px; padding: 0; }
+
+.cleaner { clear: both }
+
+.float_l { float: left }
+.float_r { float: right }
+
+.image_wrapper { position: relative; display: inline-block; width: 220px; height: 170px; }
+.image_wrapper img { position: absolute; top: 10px; left: 2px; }
+.image_fl { 
+	float: left; 
+	margin: 0 33px 0 0;
+	transition: 0.3s;
+}
+
+.image_fl:hover{
+	transform: scale(1.5);
+}
+
+.image_fr { 
+	float: right; 
+	margin: 0 8px 30px; 
+	transition: 0.5s;
+}
+
+.image_fr:hover{
+	transform: scale(1.7);
+}
+
+#jp_outer_wrapper { width: 100%; background: url(images/templatemo_body.jpg) center top no-repeat }
+#jp_wrapper { width: 960px; padding: 0 10px; margin: 0 auto; background:url(images/templatemo_body.jpg) center top no-repeat }
+
+#jp_header {
+	width: 600px;
+	height: 100px;
+	margin-left: 400px;
+	position: relative;
+}
+
+#jp_header h1{
+	color: #CD2626;
+	position: absolute;
+	top: 50px;
+	font-family: 'Hachi Maru Pop', cursive;;
+}
+
+/* main */
+
+#jp_main {
+	clear: both;
+	width: 1100px;
+	padding: 30px 0;
+}
+
+#jp_main p {
+	margin-bottom: 10px
+}
+
+#content {
+	width: 600px;
+	float: left;
+	padding-right: 35px;
+	border-right: 1px dashed black;
+}
+
+#sidebar {
+	width: 400px;
+	float: right;
+}
+
+#sidebar img{
+	transition: 0.5s;
+}
+
+#sidebar img:hover{
+	transform: scale(1.4);
+}
+
+.content_box { 
+	margin-bottom: 20px; 
+	padding-bottom: 20px; 
+	border-bottom: 1px dashed black;
+}
+
+.sidebar_box {
+	padding-left: 15px;
+	margin-bottom: 20px;
+}
+
+/*#jp_footer_wrapper {
+	clear: both;
+	width: 100%;
+	background: #960000
+}
+
+#jp_footer {
+	clear: both;
+	margin: 0 auto;
+	width: 960px;
+	padding: 10px 0;
+	color: #fff;
+	text-align: center;
+	margin: 0 auto;
+}
+
+#jp_footer a { color: #fff; text-decoration: underline }*/
